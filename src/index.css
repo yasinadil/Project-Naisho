@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,600;1,400&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+
+
+:root {
+    color-scheme: only light !important;
+}
+
+
+* {
+    scroll-behavior: smooth !important;
+}
+
+
+body {
+    /* font-family: 'IBM Plex Mono', monospace; */
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden !important;
+
+}
+
+.swal2-popup {
+    color: rgb(230, 223, 223) !important;
+}
+
+.swal2-confirm {
+    background-color: #000000 !important;
+}
