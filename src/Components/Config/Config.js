@@ -1,4 +1,4 @@
-export const nftContractAddress = "0xEa9924F7d2e3a6A0Eaa0eD5455e524e032bB0E1F";
+export const nftContractAddress = "0xDdd1512111518A423f107f69C09800aa793cdFF5";
 
 export const whitelistAddresses = [
   "0x6819d74c2013c536dd3a1ca9312a6efd19f90d04",

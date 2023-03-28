@@ -12,19 +12,18 @@ import minus from "../../Assets/minus.png";
 import "@rainbow-me/rainbowkit/styles.css";
 import bgVideo from "../../Assets/bg-vid.mp4";
 import nft1 from "../../Assets/1.png";
-import nft2 from "../../Assets/10.png";
-import nft3 from "../../Assets/1000.png";
-import nft4 from "../../Assets/1002.png";
-import nft5 from "../../Assets/1003.png";
-import nft6 from "../../Assets/1004.png";
-import nft7 from "../../Assets/1005.png";
-import nft8 from "../../Assets/1006.png";
-import nft9 from "../../Assets/1007.png";
+import nft2 from "../../Assets/2.jpg";
+import nft3 from "../../Assets/3.png";
+import nft4 from "../../Assets/4.png";
+import nft5 from "../../Assets/5.png";
+import nft6 from "../../Assets/6.png";
+import nft7 from "../../Assets/7.jpg";
+import nft8 from "../../Assets/8.jpg";
 import check from "../../Assets/authenticated.png";
 import notauth from "../../Assets/unauthenticated.png";
 import { add } from "lodash";
 
-const featuredProducts = [nft1, nft2, nft3, nft4, nft5, nft6, nft7, nft8, nft9];
+const featuredProducts = [nft1, nft2, nft3, nft4, nft5, nft6, nft7, nft8];
 
 let Count = 0;
 let slideInterval;
