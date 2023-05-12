@@ -94,7 +94,7 @@ const Overview = ({ addy }) => {
   const [totalMinted, setTotalMinted] = useState(0);
   const [totalMintedPercentage, setTotalMintedPercentage] = useState(0);
   const [count, setCount] = useState(1);
-  const price = "0.007";
+  const price = "0.005";
   const priceWL = "0.005";
   const [isWhitelisted, setIsWhitelisted] = useState(false);
   const [isPublicMint, setIsPublicMint] = useState(false);
