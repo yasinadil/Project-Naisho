@@ -289,6 +289,7 @@ const Overview = ({ addy }) => {
               autoPlay
               muted
               loop
+              controls={false}
             >
               <source src={bgVideo} type="video/mp4" />
               Your browser does not support the video tag.

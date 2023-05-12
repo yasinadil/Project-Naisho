@@ -25,7 +25,7 @@ video {
 }
 
 .bannerText {
-  display: none;
+  display: block;
 }
 
 @media only screen and (min-width: 768px) {
@@ -36,17 +36,18 @@ video {
   .bannerText {
     display: block;
   }
+
+  .bgclass {
+    background-image: url(/src/Assets/bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 
-.bgclass {
-  background-image: url(/src/Assets/bg.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  /* background: #5c258d;
-  background: -webkit-linear-gradient(to right, #4389a2, #5c258d);
-  background: linear-gradient(to right, #4389a2, #5c258d); */
-  /* height: 100%;
-  background-position: 50%; */
+@media only screen and (max-width: 600px) {
+  .bgclass {
+    background-color: #1f2f56;
+  }
 }
 
 .center-screen {
