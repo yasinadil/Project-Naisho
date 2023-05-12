@@ -26,7 +26,7 @@ import { configureChains, createClient, WagmiConfig } from "wagmi";
 import { alchemyProvider } from "wagmi/providers/alchemy";
 import { publicProvider } from "wagmi/providers/public";
 
-import { polygonMumbai } from "wagmi/chains";
+import { mainnet } from "wagmi/chains";
 
 const nftERC721ABI = require("../ABI/abi.json");
 
@@ -34,7 +34,7 @@ const { MerkleTree } = require("merkletreejs");
 const keccak256 = require("keccak256");
 
 const { chains, provider, webSocketProvider } = configureChains(
-  [polygonMumbai],
+  [mainnet],
   [
     alchemyProvider({ apiKey: process.env.REACT_APP_ProviderAPI }),
     publicProvider(),
