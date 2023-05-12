@@ -334,7 +334,15 @@ const Overview = ({ addy }) => {
                         {!isPublicMint &&
                           !isWhitelisted &&
                           isConnected &&
-                          address && <h1>Stay Tuned!</h1>}
+                          address && (
+                            <>
+                              <h1 className="text-center">
+                                Stay Tuned!
+                                <br /> Whitelist Mint is now open. <br />
+                                Public Mint will be made available soon!{" "}
+                              </h1>
+                            </>
+                          )}
                         {isPublicMint && !isWhitelisted && isConnected && (
                           <div className="card card-compact w-72 bg-transparent shadow-xl">
                             <div className="card-body">
