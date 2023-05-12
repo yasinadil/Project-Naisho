@@ -286,13 +286,16 @@ const Overview = ({ addy }) => {
           <div className="bgclass min-h-screen flex flex-col">
             <video
               className="absolute inset-0 object-cover object-top w-full h-full"
+              src={bgVideo}
+              type="video/mp4"
+              playsInline
               autoPlay
               muted
               loop
               controls={false}
             >
-              <source src={bgVideo} type="video/mp4" />
-              Your browser does not support the video tag.
+              {/* <source src={bgVideo} type="video/mp4" />
+              Your browser does not support the video tag. */}
             </video>
 
             <div className="text-white relative flex flex-grow" id="overview">
