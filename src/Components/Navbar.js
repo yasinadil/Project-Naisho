@@ -14,11 +14,10 @@ import { configureChains, createClient, WagmiConfig } from "wagmi";
 import { alchemyProvider } from "wagmi/providers/alchemy";
 import { publicProvider } from "wagmi/providers/public";
 
-import { goerli } from "wagmi/chains";
-import "./Navbar.css";
+import { polygonMumbai } from "wagmi/chains";
 
 const { chains, provider, webSocketProvider } = configureChains(
-  [goerli],
+  [polygonMumbai],
   [
     alchemyProvider({ apiKey: process.env.REACT_APP_ProviderAPI }),
     publicProvider(),

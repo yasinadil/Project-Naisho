@@ -16,7 +16,7 @@
 .glasseffectMint {
   backdrop-filter: blur(2px) saturate(200%);
   -webkit-backdrop-filter: blur(2px) saturate(200%);
-  background-color: rgba(224, 66, 255, 0.107);
+  background-color: rgba(244, 66, 22, 0.107);
   border-radius: 12px;
 }
 
@@ -46,7 +46,7 @@ video {
 }
 
 .bgclass {
-  background-image: url(/src/Assets/backdrop-1.jpg);
+  background-image: url(/src/Assets/bg.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   /* background: #5c258d;

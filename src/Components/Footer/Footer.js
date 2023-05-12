@@ -1,39 +1,10 @@
 import React from "react";
-import fb from "../../Assets/facebook.png";
-import tw from "../../Assets/twitter_w.png";
-import eth from "../../Assets/ethereum_w.png";
-import dc from "../../Assets/discord_w.png";
-import home from "../../Assets/homePage.png";
-import logo from "../../Assets/logo.png";
 import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="text-white z-50 desktop:pt-10 mobile:pt-0">
+    <footer className="text-white z-50 desktop:pb-5 mobile:pt-0">
       <div className="flex justify-center">
-        {/* <a
-          href="#"
-          type="button"
-          className="leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
-        >
-          <img src={tw} alt="twitter" />
-        </a>
-
-        <a
-          href="#"
-          type="button"
-          className="leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
-        >
-          <img src={dc} alt="discord" />
-        </a>
-
-        <a
-          href="#"
-          type="button"
-          className="leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
-        >
-          <img src={eth} alt="ether" />
-        </a> */}
         <div className="grid grid-flow-col gap-4">
           <a href="/">
             <svg
